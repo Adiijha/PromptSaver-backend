@@ -9,7 +9,7 @@ const app = express();
 const corsOptions = {
   origin: [
     "chrome-extension://oodmkdpnacjmakdncodhfjnhmcfeknca", // Extension origin
-    "https://promptsaver-backend.onrender.com/" // Backend for testing
+    "https://promptsaver-backend.onrender.com" // Backend for testing
   ],
   methods: ["GET", "POST"],
   allowedHeaders: ["Content-Type", "Authorization"]
